@@ -35,20 +35,19 @@
                                                     &mo RSE     &kp RSHFT                       &lt LWR SPACE   &kp ENTER
                                                     &none       &kp LCTRL                       &kp RALT        &none
                                                     &kp DELETE  &kp LALT                        &kp RALT        &kp CAPS
-                                                                                                                                                    //
             >;
         };
 
         lower_layer {
             bindings = <
-                &trans  &trans          &trans       &trans     &trans      &trans      &trans          &trans     &trans          &trans          &trans          &trans      &trans      &trans
-                &trans  &kp EXCLAMATION &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT &trans          &trans     &kp CARET       &kp AMPERSAND   &kp ASTERISK    &trans      &trans      &trans   
-                &trans  &trans          &kp LBRC     &kp LBKT   &kp LPAR    &kp GRAVE   &trans          &trans     &kp APOS        &kp RPAR        &kp RBKT        &kp RBRC    &trans      &trans
-                &trans  &trans          &trans       &kp UNDER  &kp MINUS   &kp TILDE                              &kp DQT         &kp EQUAL       &kp PLUS        &trans      &trans      &trans
-                &trans  &trans          &trans       &trans                                                                                        &trans          &trans      &trans      &trans
-                                                                &trans      &trans                                      &trans          &trans
-                                                                &trans      &trans                                      &trans          &trans
-                                                                &trans      &trans                                      &trans          &trans
+                &trans  &trans          &trans       &trans     &trans      &trans      &bootloader         &bootloader     &trans          &trans          &trans          &trans      &trans      &trans
+                &trans  &kp EXCLAMATION &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT &trans              &trans          &kp CARET       &kp AMPERSAND   &kp ASTERISK    &trans      &trans      &trans   
+                &trans  &trans          &kp LBRC     &kp LBKT   &kp LPAR    &kp GRAVE   &trans              &trans          &kp APOS        &kp RPAR        &kp RBKT        &kp RBRC    &trans      &trans
+                &trans  &trans          &trans       &kp UNDER  &kp MINUS   &kp TILDE                                       &kp DQT         &kp EQUAL       &kp PLUS        &trans      &trans      &trans
+                &trans  &trans          &trans       &trans                                                                                                 &trans          &trans      &trans      &trans
+                                                                &trans      &trans                                                          &trans          &trans
+                                                                &trans      &trans                                                          &trans          &trans
+                                                                &trans      &trans                                                          &trans          &trans
             >;
         };
 
