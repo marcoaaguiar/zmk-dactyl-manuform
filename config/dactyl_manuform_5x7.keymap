@@ -27,14 +27,14 @@
 
         default_layer {
             bindings = <
-                &kp ESC   &kp N1   &kp N2 &kp N3 &kp N4 &kp N5 &none       &kp PG_UP &kp N6  &kp N7     &kp N8    &kp N9    &kp N0    &mo LWR
-                &kp TAB   &kp Q    &kp W  &kp F  &kp P  &kp G  &none       &none &kp J   &kp L      &kp U     &kp Y     &kp SEMI  &kp BSLH
-                &kp ESC   &kp A    &kp R  &kp S  &kp T  &kp D  &none       &none &kp H   &kp N      &kp E     &kp I     &kp O     &kp RSHFT
-                &kp LSHFT &kp Z    &kp X  &kp C  &kp V  &kp B                        &kp K   &kp M       &kp COMMA &kp DOT   &kp FSLH  &kp END
-                &kp LCTRL &kp LGUI &none  &none                                              &kp RIGHT  &kp LBKT  &kp RBKT  &kp UP
-                                            &kp BSPC  &mo LWR                   &kp RET  &kp SPACE
-                                            &none     &kp LCTRL                  &kp LGUI &mo RSE
-                                            &kp LCTRL &kp LALT                  &kp RALT &kp RCTRL
+                &kp ESC   &kp N1   &kp N2 &kp N3 &kp N4    &kp N5 &none       &kp EQUAL &kp N6  &kp N7     &kp N8    &kp N9    &kp N0    &kp MINUS
+                &kp TAB   &kp Q    &kp W  &kp F  &kp P     &kp G  &none       &none     &kp J   &kp L      &kp U     &kp Y     &kp SEMI  &kp BSLH
+                &kp ESC   &kp A    &kp R  &kp S  &kp T     &kp D  &none       &none     &kp H   &kp N      &kp E     &kp I     &kp O     &kp SINGLE_QUOTE
+                &kp LSHFT &kp Z    &kp X  &kp C  &kp V     &kp B                        &kp K   &kp M      &kp COMMA &kp DOT   &kp SLASH &kp END
+                &kp LCTRL &kp LGUI &none  &none                                                            &none     &none     &none     &none
+                                                 &kp BSPC  &mo LWR            &kp RET  &kp SPACE
+                                                 &none     &kp LCTRL          &kp LGUI &mo RSE
+                                                 &kp LCTRL &kp LALT           &kp RALT &kp RCTRL
             >;
         };
 
